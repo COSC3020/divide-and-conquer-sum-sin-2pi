@@ -25,3 +25,6 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+## Answer
+Our recurrence relation would be T(n) = 3T(n/3)+n. We make 3 calls of our recursive function, and we split it into 3 parts so the input size is n/3.
