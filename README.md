@@ -28,3 +28,8 @@ most important part. Add your answer to this markdown file.
 
 ## Answer
 Our recurrence relation would be T(n) = 3T(n/3)+n. We make 3 calls of our recursive function, and we split it into 3 parts so the input size is n/3.
+
+I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
