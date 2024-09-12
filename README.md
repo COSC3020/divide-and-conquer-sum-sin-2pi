@@ -28,6 +28,17 @@ most important part. Add your answer to this markdown file.
 
 ## Answer
 Our recurrence relation would be T(n) = 3T(n/3)+n. We make 3 calls of our recursive function, and we split it into 3 parts so the input size is n/3.
+The pattern i found is $3^iT(n/3^i)+C$. Where i = log<sub>3</sub>n. I based this off of the logic in the mergesort implementation video.
+
+So T(n/3<sup>log<sub>3</sub>n</sup>) is essentially the base case which is equal to 1.
+
+Provided, the new expression is 3<sup>log<sub>3</sub>n</sup> * 1 * C
+
+3<sup>log<sub>3</sub>n</sup> = n
+
+n * 1 * C
+
+Simplifying to a time complexity of $\Theta(n)$
 
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
